@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<div id = 'container'>
+			<div id="buttons">
+				<button id="rotateLeft">Left</button> 
+				<button id="rotateRight">Right</button>
+				<button id="top">Top</button>
+				<button id="rotate">Rotate Object</button>
+			</div>
+			<div id = "nav">
+				<h2>Add items</h2>
+				<ul>
+					<li><button id="addChair" onclick="addObject('chair')">Chair</button></li>
+					<li><button id="addTable" onclick="addObject('table')">Table</button></li>
+					<li><button id="addTable2" onclick="addObject('table2')">Table2</button></li>
+					<li><button id="addDoor" onclick="addObject('door')">Door</button></li>
+					<li><button id="addWindow" onclick="addObject('window')">Window</button></li>
+					<li><button onclick="addObject('bed')">Bed</button></li>
+				</ul>
+			</div>
+
+			<canvas id="roomCanvas"></canvas>
+			</div>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
